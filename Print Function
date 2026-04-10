@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    n = int(input())
+    
+    # Use the 'sep' parameter and the '*' unpacking operator 
+    # to print the sequence without spaces
+    print(*range(1, n + 1), sep='')
